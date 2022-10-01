@@ -4,34 +4,46 @@ html, body {
 
 .header2 {
   grid-area: header2;
+  border-style: dotted;
+  border-color: #61c6de;
   background-color: #fffcfa;
-  padding: 10px;
+  padding: 2%;
   border-radius: 6px;
   object-fit: fill;
+  text-align: center;
 }
 
 .header {
   grid-area: header;
-  background-color: #fffcfa;
+  border-style: dotted;
+  border-color: #fffcfa;
+  background-color: #61c6de;
   text-align: center; 
-  font-family: Arial, Helvetica, sans-serif; 
-  color: white;
-  text-shadow: 2px 2px 4px #bf2600;
-  padding: 10px;
+  font-family: "Times New Roman"; 
+  color: #ffffff;
+  text-shadow: 0 0 3px #FF7F50, 0 0 5px #FFF8DC;
+  padding: 2%;
   border-radius: 5px;
 }
 
 nav {
   grid-area: menu;
-  padding: 25px;
+  border-style: dotted;
+  border-color: #fffcfa;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
   text-align: center;
-  background-color: #fffcfa;
+  background-color: #61c6de;
   border-radius: 5px;
 }
 
 main {
   grid-area: main;
-  padding: 10px;
+  border-style: dotted;
+  border-color: #61c6de;
+  padding: 2%;
   text-align: center;
   background-color: #fffcfa;
   color: #61c6de;
@@ -40,16 +52,36 @@ main {
 
 footer {
   grid-area: footer;
+  border-style: dotted;
   background-color: #61c6de;
   text-align: center;
-  padding: 10px;
+  padding: 2%;
   font-size: 75%;
   color: #fffcfa;
   border-radius: 5px;
 }
 
+.wander {
+  color: white; 
+  font-style: italic;
+  text-shadow: 0 0 3px #000000;
+}
+
+.midtermins {
+  border-style: ridge;
+  border-color: #ffdb94;
+  letter-spacing: 2px;
+}
+
+.para1 {
+  background-color: #e3f7fa;
+}
+
 #yform {
-  text-align: left;
+  font-size: 60%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
 }
 
 a:link {
@@ -58,13 +90,17 @@ a:link {
 }
 
 a:visited {
-  color: #fff5e0;
+  color: #ffeecd;
 }
 
 a:hover {
   color: #bf2600;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+#lastupdated {
+  font-style: oblique;
 }
 
 .grid-container {
@@ -74,6 +110,6 @@ a:hover {
     'menu main main main'
     'menu main main main'
     'footer footer footer footer';
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 2%;
+  padding: 2%;
 }

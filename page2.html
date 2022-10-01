@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exam</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="grid-container">
+
+    <header class="header">
+       <h1>CPSC2125<br> Exams</h1>
+    </header>
+
+    <header class="header2">
+      <img src="images/motel.JPG" width="180">
+    </header>
+
+    <nav> 
+    <a href="index.html">Home</a><br>
+    <a href="page2.html">Form</a><br>
+    <a href="https://visittybee.com">Visit</a>
+    </nav>
+
+    <main>
+      <form action="https://webdevbasics.net/scripts/yoga.php" method="post" id=yform>
+
+        <label for="first">First Name:</label>
+        <br>
+        <input type="text" id="first" name="first" placeholder="Jane" required>
+        <br><br>
+        
+        <label for="last">Last Name:</label>
+        <br>
+        <input type="text" id="last" name="last" placeholder="Doe" required>
+        <br><br>
+        
+        <label for="email">Email Address:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="janedoe@email.com" required>
+        <br><br>
+        
+        <label for="state">State:</label>
+        <br>
+        <select id="state" name="state">
+          <option value="OR">OR</option>
+          <option value="WA">WA</option>
+          <option value="CA">CA</option>
+        </select>
+          <br><br>
+        
+        <p>Which of these languages do you know? <br> (Select all that apply)</p>
+        <input type="checkbox" id="option1" name="option1" value="Python">
+  <label for="option1">Python</label>
+        <br>
+  <input type="checkbox" id="option2" name="option2" value="Java">
+  <label for="option2">Java</label>
+        <br>
+  <input type="checkbox" id="option3" name="option3" value="HTML">
+  <label for="vehicle3">HTML</label>
+        <br><br>
+        
+  <label for="comments">Any Questions, Comments, or Concerns?:</label>
+        <br>
+<textarea name="message" rows="10" cols="35"></textarea>
+        <br><br>
+        
+        <input type="submit" value="Submit">
+  <input type="reset">
+      </form>      
+    </main>
+    
+    <footer>
+      <p>Elle Keres &copy; <a href="mailto:keres_cassidy@columbusstate.edu">Email me!</a></p>
+      <p id="lastupdated"></p>
+    </footer>
+
+      <script src="script.js"></script>
+     </body>
+</html>

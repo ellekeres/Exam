@@ -4,15 +4,19 @@ html, body {
 
 .header2 {
   grid-area: header2;
+  background-color: #fffcfa;
+  padding: 10px;
+  border-radius: 6px;
+  object-fit: fill;
 }
 
-header {
+.header {
   grid-area: header;
   background-color: #fffcfa;
   text-align: center; 
   font-family: Arial, Helvetica, sans-serif; 
-  color: #ffdb94;
-  text-shadow: 1px 1px 2px #000000;
+  color: white;
+  text-shadow: 2px 2px 4px #bf2600;
   padding: 10px;
   border-radius: 5px;
 }
@@ -30,7 +34,7 @@ main {
   padding: 10px;
   text-align: center;
   background-color: #fffcfa;
-  color: #bf2600;
+  color: #61c6de;
   border-radius: 5px;
 }
 
@@ -42,6 +46,10 @@ footer {
   font-size: 75%;
   color: #fffcfa;
   border-radius: 5px;
+}
+
+#yform {
+  text-align: left;
 }
 
 a:link {
